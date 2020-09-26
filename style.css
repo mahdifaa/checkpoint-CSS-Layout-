@@ -1,0 +1,91 @@
+body{ 
+    background : grey ;
+}
+.page{ 
+    border : 5px solid blue ; 
+    border-radius: 10px ;
+    margin : auto ; 
+    padding :5px ;
+    width : 900px;
+    background :white ; 
+    font-family: roboto;
+}
+
+h1{ 
+    font-size : 40px;
+    color :black ;
+    font-family : verdana;
+}
+
+h2{ 
+    color:green;
+    font-family : verdana;
+}
+
+h2:hover{ 
+    color:green; 
+}
+.profession{ 
+    color: royalblue;
+}
+a:active{
+    color:red; 
+}
+th{ 
+    background: green;
+}
+label{
+    color: skyblue;
+    font-weight: 900;
+}
+.langues{ 
+    font-weight: bold;
+
+}
+
+.aboutme{ 
+    border:2px dotted green;
+    padding: 5px;
+    margin: auto ;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
+.photo{ 
+    border : 5px solid blue ;  
+
+}
+
+.header { 
+    flex :2;
+    align-items: flex-start;
+}
+.photo {
+    border : 5px solid black ; 
+    padding: 2px;
+    flex-basis: auto;
+    flex:1
+}
+.donnee{
+    margin-left: 10px;
+    flex:2;
+    flex: center;
+    text-align: center;
+    
+}
+
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.information section { 
+    flex-basis: 400px;
+    padding :20px
+}
